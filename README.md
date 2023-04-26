@@ -31,7 +31,7 @@
 </div>
 
 <div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/java_sf.png" height=40 align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/java_sf%20(1).png"align="left">
   <p>Le Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
   une base de données PostgreSQL.</p>
 </div>
