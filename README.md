@@ -11,12 +11,19 @@
   <p>Création de dockerfile</p>
   <p>Gestion d'image</p>
 </div>
-<div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/olive_sf.png" height=60>
+<br></br>
+<div align="center">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/olive_sf.png" height=60 align="center">
   <p><b>DESCRIPTION :</b></p>
   <p>Conteneuriser et définir le déploiement d'une simple application de sondage Web.</p>
   <p>Il y a cinq éléments constituant la demande :</p>
-  <p>- Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
+</div>
+
+ <div align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf.png" height="40" align="left">
+  <p>Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
+</div>
+
   <p>- Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
   le travailleur.</p>
   <p>- The Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
