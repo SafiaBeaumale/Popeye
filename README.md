@@ -5,7 +5,7 @@
 <p>Popeye, est un projet avec pour objectifs de comprendre la conteneurisation avec Docker et de définir le deploiement d'une application de sondage web.</p>
 <br></br>
 <div align="center">
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/conserve_sf.png" height=40" align="center">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/image_readme/conserve_sf.png" height=40" align="center">
   <p><b>SKILLS DOCKER :</b></p>
   <p>Comprendre la conteneurisation</p>
   <p>Création de dockerfile</p>
