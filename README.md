@@ -11,7 +11,7 @@
   <p>Création de dockerfile</p>
   <p>Gestion d'image</p>
 </div>
-<br></br>
+
 <div align="center">
   <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/olive_sf.png" height=60 align="center">
   <p><b>DESCRIPTION :</b></p>
@@ -45,7 +45,8 @@
   <p align="left">Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
 </div>
 
-<div align="centeré>
+<div align="center">
   <p><b>SCHÉMA :</b></p>
-  <img src=""
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/schema.png" height=300 width=500 align="center">
+</div>
   
