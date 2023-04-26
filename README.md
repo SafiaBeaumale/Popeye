@@ -11,11 +11,9 @@
   <p>Création de dockerfile</p>
   <p>Gestion d'image</p>
 </div>
-<br></br>
-
 <div>
-  <img src="
-  <p><b>DESCRIPTION</b></p>
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/olive_sf.png" height=60>
+  <p><b>DESCRIPTION :</b></p>
   <p>Conteneuriser et définir le déploiement d'une simple application de sondage Web.</p>
   <p>Il y a cinq éléments constituant la demande :</p>
   <p>- Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
