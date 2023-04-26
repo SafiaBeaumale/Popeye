@@ -37,7 +37,7 @@
 </div>
 
 <div>
-  <img src="" height=30 aign="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/postgresql_sf%20(1).png" align="left">
   <p>Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
   <p>- Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
 </div>
