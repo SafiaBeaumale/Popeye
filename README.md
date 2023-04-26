@@ -1,4 +1,4 @@
-# POPEYE - Embarquez pour le monde incroyable des conteneurs !
+# POPEYE - Embarquez pour le monde incroyable des conteneurs
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Popeye_the_Sailor.png/220px-Popeye_the_Sailor.png" height=100 align="left">
 <br></br>
@@ -19,25 +19,33 @@
   <p>Il y a cinq éléments constituant la demande :</p>
 </div>
 
-<div>
+<div align="left">
   <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf%20(1).png" height=30 align="left">
-  <p>Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
+  <p align="left">Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
 </div>
 
-<div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/redis_sf%20(1).png" align="left">
-  <p>Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
+<div align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/redis_sf%20(1).png" height=30 align="left">
+  <p align="left">Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
   le worker.</p>
 </div>
 
-<div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/java_sf%20(1).png"align="left">
-  <p>Le Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
+<div align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/java_sf%20(1).png" height=30 align="left">
+  <p align="left">Le Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
   une base de données PostgreSQL.</p>
 </div>
 
-<div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/postgresql_sf%20(1).png" align="left">
-  <p>Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
-  <p>- Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
+<div align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/postgresql_sf%20(1).png" height=30 align="left">
+  <p align="left">Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
+
+<div align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/node_js_sf(1).png" height=30 align="left">
+  <p align="left">Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
 </div>
+
+<div align="centeré>
+  <p><b>SCHÉMA :</b></p>
+  <img src=""
+  
