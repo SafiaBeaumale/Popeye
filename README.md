@@ -19,15 +19,25 @@
   <p>Il y a cinq éléments constituant la demande :</p>
 </div>
 
- <div align="left">
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf.png" height="40" align="left">
+<div>
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf.png" height=30 align="left">
   <p>Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
 </div>
 
-  <p>- Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
-  le travailleur.</p>
-  <p>- The Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
+<div>
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/redis_sf.png" height=30 align="left">
+  <p>Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
+  le worker.</p>
+</div>
+
+<div>
+  <img src="" height=30 aign="left">
+  <p>Le Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
   une base de données PostgreSQL.</p>
-  <p>- Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
+</div>
+
+<div>
+  <img src="" height=30 aign="left">
+  <p>Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
   <p>- Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
 </div>
