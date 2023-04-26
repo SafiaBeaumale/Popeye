@@ -20,7 +20,7 @@
 </div>
 
 <div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf.png" height=30 align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/flask_sf%20(1).png" height=30 align="left">
   <p>Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
 </div>
 
