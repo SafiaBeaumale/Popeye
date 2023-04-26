@@ -6,22 +6,23 @@
 <br></br>
 
 <div align="center">
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/cerveau.png" height=40" align="center">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/skills.png" height=40" align="center">
   <p><b>SKILLS DOCKER :</b></p>
   <p>Comprendre la conteneurisation</p>
   <p>Création de dockerfile</p>
   <p>Gestion d'image</p>
 </div>
 <br></br>
+
 <div>
-DESCRIPTION
-Conteneuriser et définir le déploiement d'une simple application de sondage Web.
-Il y a cinq éléments constituant la demande :
-- Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.
-- Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
-le travailleur.
-- The Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
-une base de données PostgreSQL.
-- Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.
-- Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.
+  <p><b>DESCRIPTION</b></p>
+  <p>Conteneuriser et définir le déploiement d'une simple application de sondage Web.</p>
+  <p>Il y a cinq éléments constituant la demande :</p>
+  <p>- Poll, une application Web Flask Python qui rassemble les votes et les place dans une file d'attente Redis.</p>
+  <p>- Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
+  le travailleur.</p>
+  <p>- The Worker, une application Java qui consomme les votes se trouvant dans la file d'attente Redis, et les stocke dans
+  une base de données PostgreSQL.</p>
+  <p>- Une base de données PostgreSQL, qui stocke (en permanence) les votes stockés par le Worker.</p>
+  <p>- Résultat, une application web Node.js qui récupère les votes de la base de données et affiche les bon, résultat.</p>
 </div>
