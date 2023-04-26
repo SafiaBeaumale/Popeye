@@ -25,7 +25,7 @@
 </div>
 
 <div>
-  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/redis_sf.png" height=30 align="left">
+  <img src="https://github.com/SafiaBeaumale/Popeye/blob/main/redis_sf%20(1).png" align="left">
   <p>Une file d'attente Redis, qui contient les votes envoyés par l'application Poll, en attendant qu'ils soient consommés par
   le worker.</p>
 </div>
